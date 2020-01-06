@@ -23,7 +23,6 @@ const nodeExternals = require('webpack-node-externals')
 const commonConfig = {
   mode: 'production',
   optimization: {
-    // Minification breaks angular.
     minimize: false
   },
   module: {
